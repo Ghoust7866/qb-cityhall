@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
     top: 15vh;
     background-size: cover;
-    background-color: rgba(23, 23, 23, 80%);
+    background-color: rgb(117 117 117 / 0.8);
     border-radius: 4vh;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.226);
 }
@@ -32,14 +32,14 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 6vh;
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     line-height: 10vh;
     width: 97vh;
     top: 2vh;
     left: 1.5vh;
     border-radius: 2vh;
     height: 10vh;
-    background: #dc143c;
+    background: rgb(117 117 117 / 1);
 }
 
 .cityhall-option-blocks {
@@ -61,7 +61,7 @@ body {
     margin: 0 auto;
     top: 10vh;
     border-radius: 1vh;
-    background: rgba(37, 37, 37, 0.418)
+    background: rgba(0, 0, 0, 0.12)
 }
 
 .cityhall-job-page {
@@ -91,18 +91,18 @@ body {
 }
 
 .cityhall-option-block:hover {
-    border-bottom: 9px solid #dc143c;
+    border-bottom: 9px solid rgb(255 0 255 / 1);
     opacity: 0.9;
 }
 
 .cityhall-option-block > i {
     font-size: 16vh;
     line-height: 21vh;
-    color: #dc143c;
+    color: rgb(255 0 255 / 1);
 }
 
 .cityhall-option-block > p {
-    color: #171717;
+    color: rgb(117 117 117 / 1);
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -120,19 +120,19 @@ body {
 .identity-page-block {
     width: 100%;
     height: 15%;
-    background: #2873A7;
+    background: rgb(117 117 117 / 1);
     transition: all 0.1s ease-in-out;
     border-radius: 0.5vh;
     /* border-bottom: 2px solid rgba(255, 255, 255, 0); */
 }
 
 .identity-page-block:hover {
-    background: #ededed;
+    background: rgb(255 0 255 / 1) 0 255 / 1);
     transition: ease-in 0.3s;
 }
 
 .identity-page-block > p:hover {
-    color: #2873A7;
+    color: rgb(255 0 255 / 1);
     transition: ease-in 0.3s;
 }
 
@@ -144,7 +144,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.1vh;
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     font-size: 1.6vh;
 }
 
@@ -154,12 +154,12 @@ body {
     right: 0;
     padding: 1vh;
     margin: 4vh;
-    background: rgba(34, 34, 34, 0.75);
+    background: rgb(117 117 117 / 1);
     border-radius: 1vh;
 }
 
 .hover-description > p {
-    color: white;
+    color: rgb(255 0 255 / 1);
     font-family: 'Poppins', sans-serif;
     font-size: 1.3vh;
 }
@@ -177,12 +177,12 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #28A745;
+    background: rgb(117 117 117 / 1);
     border-radius: 0.5vh;
 }
 
 .request-identity-button > p {
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -205,18 +205,18 @@ body {
 .job-page-block {
     width: 100%;
     height: 5vh;
-    background: #2873A7;
+    background: rgb(117 117 117 / 1);
     border-radius: 0.5vh;
     transition: all 0.1s ease-in-out;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .job-page-block:hover {
-    background: #ededed;
+    background: rgb(117 117 117 / 1);
 }
 
 .job-page-block > p:hover {
-    color: #2873A7;
+    color: rgb(225 0 225 / 1);
 }
 
 .job-page-block > p {
@@ -227,7 +227,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.1vh;
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     font-size: 1.6vh;
 }
 
@@ -239,16 +239,16 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #28A745;
+    background: rgb(117 117 117 / 1);
     border-radius: 0.5vh;
 }
 
 .apply-job-button:hover {
-    background: #28A745;
+    background: rgb(117 117 117 / 1);
 }
 
 .apply-job-button > p {
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -269,13 +269,13 @@ body {
     margin: 1vh;
     width: 20vh;
     height: 5vh;
-    background: #dc143c;
+    background: rgb(117 117 117 / 1);
     border-radius: 0.5vh;
     transition: all 0.1s linear;
 }
 
 .back-to-main > p {
-    color: #ededed;
+    color: rgb(255 0 255 / 1);
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
